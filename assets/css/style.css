@@ -2972,7 +2972,7 @@ footer {
 @media screen and (max-width:640px) {
 
     .container {
-        padding: 0 0px;
+        padding: 0 10px;
         width: 100%;
     }
     h1,
