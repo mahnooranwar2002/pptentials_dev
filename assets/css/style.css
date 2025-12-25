@@ -2981,7 +2981,10 @@ footer {
     h4,
     h5,
     h6 {
-        font-size: 18px ;
+        font-size: 18px !important;
+    }
+    p{
+        font-size: 11px !important ;
     }
     #bannarSec {
         & #overlay {
