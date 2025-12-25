@@ -2972,7 +2972,7 @@ footer {
 @media screen and (max-width:640px) {
 
     .container {
-        padding: 0 20px;
+        padding: 0 0px;
         width: 100%;
     }
     h1,
@@ -3156,6 +3156,10 @@ ul li {
 }
 #counterSec{
   padding: 0px;
+  & .heading{
+    padding: 20px 0px;
+
+  }
 
     & #counter{
         flex-direction: column;
