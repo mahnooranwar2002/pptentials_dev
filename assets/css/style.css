@@ -2983,9 +2983,10 @@ footer {
     h6 {
         font-size: 18px !important;
     }
-    p{
+    p , a{
         font-size: 11px !important ;
     }
+
     #bannarSec {
         & #overlay {
             padding: 70px 20px;
@@ -3114,6 +3115,17 @@ footer {
         }
 
     }
+    .project-filter {
+        display: none;
+    }
+    .project-grid{
+        margin-top: 20px;
+    }
+    .project-cta{
+        margin: 10px 0px;
+        padding: 50px 0px;
+        background-color: rebeccapurple !important;
+    }
     .review{
         /* background-color: rebeccapurple; */
         padding: 30px;
@@ -3141,10 +3153,13 @@ footer {
     }
 }
 #counterSec{
+  padding: 0px;
+
     & #counter{
         flex-direction: column;
+     
         & .card{
-            width: 100%;
+            width: 90%;
         }
     }
 }
@@ -3318,12 +3333,13 @@ footer {
             & .left-wrapper {
 
                 width: 100%;
-                padding: 0px 20px;
+                padding: 0px;
 
             }
 
             & .right-wrapper {
 
+padding: 0px;
                 width: 100%;
             }
         }
