@@ -3510,7 +3510,8 @@ footer {
     .blog {
         padding: 40px 0px;
 
-        & #heading {
+        & .heading {
+     
             & p {
                 color: #a59d9d;
                 padding: 0px;
@@ -3530,8 +3531,14 @@ footer {
     }
 
     .faq-Sec {
-        
-
+     
+   & .heading {
+   
+            & p {
+                color: #a59d9d;
+                padding: 0px;
+            }
+        }
         & .faq-container {
             
 
